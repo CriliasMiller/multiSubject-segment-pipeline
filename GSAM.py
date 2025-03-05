@@ -178,8 +178,8 @@ def GSAM_main(tar_path, skip_frms_num = 3):
         wds.to_tuple("__key__", "mp4"),
     )
 
-    Grounding_Task = Grounding("GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py", "GroundingDINO/weights/groundingdino_swint_ogc.pth")
-    Segment_Task = Segment("/workspace/Crilias/zhangzhenxing/ckpt/sam-vit-base")
+    Grounding_Task = Grounding()
+    Segment_Task = Segment()
 
     for key, mp4 in pipeline:
         try:
