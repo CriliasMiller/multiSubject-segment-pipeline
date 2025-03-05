@@ -215,16 +215,3 @@ def GSAM_main(tar_path, skip_frms_num = 3):
 
         drwa_mask_image(origin_frms, masks,phrases)
         break
-
-if __name__ =="__main__":
-    GSAM_main('/workspace/Data/video_and_image_datas/processed_videos_wds_datas/hd_movie_video_data')
-
-
-        
-
-
-
-
-        
-
-    
